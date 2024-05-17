@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item{
+    margin-left: 15vw;
+}
+
+/* Cores do site
+#3697D3
+#2986C1
+#1b76af
+#0e659c
+#00548a */
+
+nav{
+    background-color: #425379;
+}
+
+.dropdown-menu{
+    background-color: #425379;
+    color: #ffffff;
+}
+
+#logo_header{
+    width: 170px;
+    height: 50px;
+}
+
+.dropdown-item{
+    color: #ffffff;
+}
+
