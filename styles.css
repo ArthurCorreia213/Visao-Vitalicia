@@ -2,9 +2,9 @@ body{
     padding: 0;
     margin: 0;
 }
-
-.nav-item{
-    margin-left: 15vw;
+                                                   /*  Inicio do cabeçalho */
+/* .nav-item{
+    margin-left: 11.5vw;
 }
 
 /* Cores do site
@@ -12,7 +12,7 @@ body{
 #2986C1
 #1b76af
 #0e659c
-#00548a */
+#00548a *
 
 nav{
     background-color: #425379;
@@ -32,3 +32,38 @@ nav{
     color: #ffffff;
 }
 
+.perfil_botao{
+    border-radius: 50px 50px;
+    height: 80px;
+    width: 300px;
+    color: #ffffff;
+    background-color: #00548A;
+}
+
+.icone_perfil{
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.nav_texto{
+    padding-top: 20px;
+    overflow-wrap: nowrap;
+    white-space: nowrap;
+} */
+                                                    /* Fim do cabeçalho */
+.imagem_fundo{
+    width: 100vw;
+    height: 500px;
+    border: 1px red solid;
+    margin-top: 96px;
+}
+
+.agendamento_consulta{
+    width: 600px;
+    height: 400px;
+    background-color: #304878;
+    margin-top: 50px;
+    opacity: 85%;
+
+    margin-left: 65vw;
+}

@@ -48,13 +48,18 @@ background: linear-gradient(180deg, #D7F5FF 0%, #DFF3FF 9.5%, #FFFFFF 100%);
 
 }
 
+.parte1{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
 .textosp1{
 
 position: absolute;
 width: 986px;
 height: 352px;
 left: 59px;
-top: 568px;
+top: 15em;
 
 font-family: 'Noto Sans';
 font-style: normal;
