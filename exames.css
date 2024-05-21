@@ -1,0 +1,29 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial';
+    font-size: 120px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.barrinha-maior{
+    position: absolute;
+    bottom: 0px;
+    width: 282px;
+    height: 12px;
+    background-color: #4DD7D7;
+    border-radius: 50px;
+}
+
+.barrinha-menor{
+
+background: #95FDE4;
+border-radius: 50px;
+}
+
+.barrinha-media{
+background: #4DD7D7;
+border-radius: 50px;
+
+}

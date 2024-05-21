@@ -6,6 +6,8 @@ body{
 h3{
     padding-top: 20px;
     margin-bottom: 20px;
+    font-size: 40px;
+    margin-left: 40px;
 }
                                                    /*  Inicio do cabeçalho */
 /* .nav-item{
@@ -81,7 +83,6 @@ nav{
     margin-top: 96px;
     background-color: aliceblue;
     height: 500px;
-    text-align: center;
 }
 
 .fundo{
@@ -104,3 +105,13 @@ nav{
     background-color: #D8D8D8;
 }
 
+#agendar{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+#primeiro_acesso{
+    background-color: #181848;
+    font-size: 20px;
+}

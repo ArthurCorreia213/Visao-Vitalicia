@@ -66,7 +66,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 1.5rem;
 text-align: justify;
-border: 2px solid red;
 color: #000000;
 
 
@@ -80,7 +79,6 @@ right: 0px;
 top: 380px;
 clip-path: inset(0px 140px);
 z-index: 2;
-border: solid red 2px;
 
 
 
@@ -91,7 +89,7 @@ border: solid red 2px;
 position: absolute;
 width: 25%;
 left: 27.6%;
-top: 79%;
+top: 73%;
 z-index: 2;
 font-family: 'Noto Sans';
 font-style: normal;
@@ -99,7 +97,6 @@ font-weight: 600;
 font-size: 1.5rem;
 line-height: 49px;
 text-align: justify;
-border: solid 2px red;
 color: #000000;
 
 
@@ -109,23 +106,20 @@ color: #000000;
     position: absolute;
     z-index: 3;
     top: 70vh;
-    
 }
 
 .textosp3{
 
 position: absolute;
-width: 962px;
-left: 592px;
-top: 1290px;
+width: 132vh;
+left: 55vh;
+top: 102vh;
 z-index: 2;
 font-family: 'Noto Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 1.5rem;
 text-align: justify;
-border: solid 2px red;
-
 color: #000000;
 
 }
@@ -133,18 +127,15 @@ color: #000000;
 .textosp4{
 
 position: absolute;
-width: 955px;
-left: 592px;
-top: 1439px;
-border: 2px solid rebeccapurple;
+width: 132vh;
+left: 55vh;
+top: 112vh;
 font-family: 'Noto Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 1.5rem;
 text-align: justify;
 z-index: 2;
-border: 2px solid red;
-
 color: #000000;
 
 
@@ -153,22 +144,32 @@ color: #000000;
 .assinatura{
 
 position: absolute;
-width: 343px;
-height: 36px;
-left: 1211px;
-top: 1669px;
+left: 30%;
+top: 130vh;
+z-index: 2;
 
 
+}
+/* 
+começando a criação dos "comentários" em balão */
+
+.balao1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .balao{
 
 
 position: absolute;
-width: 1472px;
-height: 373px;
+width: 85%;
+height: 35%;
 left: 120px;
 top: 1897px;
+display: flex;
+align-items: center;
+justify-content: center;
 
 background: #1B76AF;
 border-radius: 50px;
@@ -193,14 +194,71 @@ z-index: 1;
 position: absolute;
 width: 1219px;
 height: 220px;
-left: 268px;
-top: 1973px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
-font-size: 36px;
-line-height: 44px;
+font-size: 2.2rem;
+line-height: 3.3rem;
+text-align: justify;
+
+color: #FFFFFF;
+
+
+z-index: 2;
+
+
+
+}
+
+.balao2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.balao2b{
+
+
+position: absolute;
+width: 85%;
+height: 30%;
+left: 120px;
+top: 230vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+background: #1B76AF;
+border-radius: 50px;
+z-index: 1;
+
+}
+
+.triangulo2{
+    position: absolute;
+    width: 240px;
+    height: 204px;
+    left: 130px;
+    top: 222vh;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: #1B76AF;
+    z-index: 4;
+    
+    
+}
+
+.texto2{
+
+position: absolute;
+width: 1219px;
+height: 220px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 2.2rem;
+line-height: 3.3rem;
 text-align: justify;
 
 color: #FFFFFF;
