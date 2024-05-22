@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+.convenios{
+    position: relative;
+    right: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 1300px; */
+}
+
+.convenios .tamanho{
+    margin-left: 150px;
+    margin-top: 150px;
+    width: 350px;
+    height: 350px;
+}

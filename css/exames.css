@@ -1,0 +1,116 @@
+.posicao-tudo{
+    position: relative;
+    top: 96px;
+}
+
+.titulo{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 42px;
+    width: 500px;
+    position: relative;
+    left: 37%;
+}
+
+.titulo h1{
+    color: #00548A;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5rem;
+    margin-bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.titulo .barrinha-maior{
+    /* Rectangle 103 */
+
+width: 160px;
+height: 8px;
+margin-right: 17px;
+margin-left: 105px;
+
+background: #4DD7D7;
+border-radius: 50px;
+
+}
+
+.titulo .barrinha-menor{
+    /* Rectangle 104 */
+
+
+width: 25px;
+height: 8px;
+margin-right: 17px;
+
+background: #95FDE4;
+border-radius: 50px;
+}
+
+.titulo .barrinha-media{
+    /* Rectangle 105 */
+
+
+width: 70px;
+height: 8px;
+
+background: #4DD7D7;
+border-radius: 50px;
+
+}
+
+.titulo .posicao-barrinhas{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.texto-central p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.texto-lateral{
+
+    width: 30%;
+    position: relative;
+    left: 13em;
+    top: 3em;
+}
+
+.texto-lateral li{
+    font-size: 1.5em;
+    font;
+    margin-bottom: 4.5%;
+}
+
+.imagem{
+    position: relative;
+    bottom: 32em;
+    left: 77em;
+    z-index: -1;
+}
+
+.imagem img{
+    width: 28.57em;
+    height: 40em;
+}
+
+.agendar{
+    position: absolute;
+    text-shadow: 0 0.3em ;
+    top: 76em;
+    left: 56em;
+    background-color: #3697D3;
+    width: 7.3em;
+    border-radius: 0.3em;
+}
+
+.agendar p{
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+}
