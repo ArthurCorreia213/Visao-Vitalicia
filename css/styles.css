@@ -4,12 +4,73 @@ body{
     font-family: 'Noto Sans';
 }
 
+*{
+    margin: 0;
+}
+
+.sobre_nos{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.titulo_sobre{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5rem;
+    color: #00548A;
+}
+
+.texto_1{
+    margin-top: -14em;
+    text-align: start;
+}
+
+.texto_2{
+    margin-left: 8em;
+}
+
+.texto_3{
+    text-align: start;
+    margin-right: 8em;
+    margin-top: -5em;
+}
+
+.assinatura{
+    margin-right:5em;
+}
+
+.row_2{
+    margin-top: -4em;
+    height: 300px;
+}
+
 h3{
     padding-top: 20px;
     margin-bottom: 20px;
     font-size: 40px;
     margin-left: 40px;
 }
+
+
+.imagem_clinica{
+    height: 20em;
+}
+
+.imagem_doutor{
+    height: 18em;
+    padding: 0;
+    width: 300px;
+    margin-top: -3em;
+    /* clip-path: polygon(35% 0, 100% 0, 100% 100%, 35% 100%); */
+}
+
+.row_1{
+    height: 30rem;
+}
+
                                                    /*  Inicio do cabeçalho */
 /* .nav-item{
     margin-left: 11.5vw;
@@ -120,24 +181,33 @@ nav{
 }
 
 .serviços{
+    height: 38em;
+}
 
-    height: 27.2em;
+.serviços_titulo{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #00548A;
+    height: 2em;
+    margin-top: 20px;
 }
 
 .serviços-row{
-
     height: 27.2em;
 }
 
 .serviços-item{
-
-    margin-left: 13em;
+    /* margin-left: 13em; */
     padding: 0;
     background-color: #D9D9D9;
     width: 22em;
 }
 
 .serviços_texto{
+    /* font-weight: 600;
+    font-size: 1.5rem; */
     font-size: 1.8em;
     margin: 0.8em;
 }
@@ -173,4 +243,16 @@ nav{
 .carousel-indicators [data-bs-target]{
     width: 100px;
     height: 100px;
+    border-radius: 50%;
 }
+
+/* font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 5rem; */
+
+
+/* font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5rem; */

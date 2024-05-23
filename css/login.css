@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    /* background-image: url(../imagens/Imagem_optometria.png); */
+    background-size: 100%;
+}
+
+.container-login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 5vw;
+}
+
+.quadrado{
+    width: 50em;
+    height: 30em;
+    background-color: #304878;
+    border-radius: 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quadrado > h3{
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.login > label{
+    font-size: 1.5em;
+    font-style: italic;
+    margin-left: 0.5em;
+}
+
+.login > input{
+    width: 45em;
+    height: 2.6em;
+    border-radius: 0.3em;
+}

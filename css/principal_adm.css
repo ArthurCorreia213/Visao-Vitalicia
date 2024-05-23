@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.barralateral{
+
+
+position: absolute;
+width: 5em;
+height: 100%;
+
+
+background: #3697D3;
+
+
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+
+        "main"
+;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    width: 80%;
+    max-width: 1200px;
+    position: relative;
+    top: 15vh;
+    left: 30px;
+}
+
+
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+    padding: 10px;
+}
+
+.content {
+    background-color: #e9e9e9;
+    padding: 1rem;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+/* o media é responsavel por udar a fonte, tamanho, etc, ao diminuir ou aumentar a tela */
+
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+        font-size: 1rem;
+    }
+}
+
+.titulos{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px 20px 20px;
+
+}
