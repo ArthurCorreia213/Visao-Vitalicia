@@ -1,0 +1,30 @@
+.container-cirurgia{
+    margin-top: 10em;
+}
+
+.titulo-cirurgia{
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5em;
+}
+
+.titulo-cirurgia h3{
+    font-size: 4em;
+    color: #00548A;
+    font-weight: 750;
+}
+
+.quadrado{
+    height: 32.5em;
+    display: flex;
+    border-bottom: 3px solid;
+    margin-bottom: 5em;
+}
+
+.quadrado img{
+    width: 50em;
+    height: 30em;
+    border-radius: 1em;
+    margin-left: 4vw;
+}

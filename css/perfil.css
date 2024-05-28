@@ -15,8 +15,18 @@ body{
     font-size: 1.5rem;
 }
 
+.informacoes
+
 .imagem{
     width: 200px;
     height: 200px;
-    display: inline;
+}
+
+.info{
+    color: #FFFFFF;
+    width: max-content;
+}
+
+div{
+    border: 1px solid red;
 }
