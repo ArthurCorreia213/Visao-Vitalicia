@@ -1,3 +1,5 @@
+/* configurações básicas: */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,23 +9,72 @@
 essa tag important é bem interessante, como se fosse o zindex, mas para caracteristicas que vc queira ressaltar. */
 
 body {
-    background-color: rgba(217, 217, 217, 1) !important;
+    background-color: rgba(217, 217, 217, 1)!important;
 }
+
 .barralateral{
-
-
 position: fixed;
 width: 5em;
 height: 100%;
 z-index: 2;
-
-
 background: #3697D3;
+}
+
+/* 
+fim das configurações básicas */
 
 
+/* colocando título (usei em base a "base" do site) */
+/* 
+uma coisa que gostei, utilizar o display flex para "alinha" os titulos, para não depender de pixel, etc */
+
+.titulo2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    top: 15vh;
+    left: 20vh;
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.p1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    top: 15vh;
+    left: 20vh;
+}
+
+.p2{
+    position: relative;
+    top: 15vh;
+    left: 20vh;
+}
+
+.l1, .l2, .l3{
+    font-weight: bold;
+}
+
+.image{
+    position: absolute;
+    top: 22vh;
+    left: 45vh;
+}
+
+.table-responsive{
+    position: absolute;
+    width: 160vh;
+    top: 35%;
+    left: 10%;
 }
 
 
+/* 
+o grid: */
+/* 
 .conteudo{
     display: flex;
     align-items: center;
@@ -53,14 +104,14 @@ background: #3697D3;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.5rem;
     padding: 1rem;
-    padding: 10px;
+    padding: 10%;
 }
 
 .content {
     background-color: #f8f8f8;
     padding: 1rem;
-    width: auto;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -72,7 +123,7 @@ background: #3697D3;
 
     
 }
-
+ */
 
 /* o media é responsavel por udar a fonte, tamanho, etc, ao diminuir ou aumentar a tela */
 
@@ -106,13 +157,6 @@ background: #3697D3;
     padding: 20px 20px 20px 20px;
 
 }
-
-/* .ola{
-    position: fixed;
-    bottom: 50%;
-    right: 0;i
-} */
-
 
 /* adicionando o hover */
 
