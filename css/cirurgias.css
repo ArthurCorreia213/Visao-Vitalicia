@@ -19,12 +19,86 @@
     height: 32.5em;
     display: flex;
     border-bottom: 3px solid;
-    margin-bottom: 5em;
+    margin-bottom: 2.5em;
 }
 
 .quadrado img{
-    width: 50em;
+    width: 46em;
     height: 30em;
     border-radius: 1em;
     margin-left: 4vw;
+    margin-right: 2%;
+}
+
+.quadrado1{
+    height: 32.5em;
+    display: flex;
+    margin-bottom: 2.5em;
+}
+
+.quadrado1 img{
+    width: 46em;
+    height: 30em;
+    border-radius: 1em;
+    margin-left: 4vw;
+    margin-right: 2%;
+}
+
+.descricao{
+    margin-right: 2vw;
+}
+
+.descricao h5{
+    display: flex;
+    justify-content: center;
+    font-size: 4.5em;
+    margin-bottom: 0.3em;
+}
+
+.descricao p{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    text-align: justify;
+}
+
+.agendar{
+   display: flex;
+   align-items: end;
+   justify-content: end;
+   position: relative;
+   top: 17vh;
+}
+
+.quadrado-agendar{
+    width: 10em;
+    background-color: #3697D3;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+
+.quadrado-agendar p{
+    font-size: 2em;
+    position: relative;
+    top: 0.2em;
+    color: #fff;
+    text-shadow: 1px 3px 2px #000;
+}
+
+.agendar-catarata{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: relative;
+    top: 12vh;
+    cursor: pointer;
+}
+
+.agendar-cerato{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    position: relative;
+    top: 22vh;
+    cursor: pointer;
 }

@@ -1,0 +1,30 @@
+div{
+    border: 1px solid red;
+}
+
+h3{
+    color: #00548A;
+    font-size: 3rem;
+}
+
+.texto{
+    font-size: 1.3rem;
+}
+
+.redes{
+    display: flex;
+    width: 60%;
+    height: 1000px;
+    margin-left: 20%;
+    margin-top: 126px;
+}
+
+.logos{
+    width: 15em;
+    height: 15em;
+}
+
+.gmail{
+    width: 15em;
+    height: 8em;
+}

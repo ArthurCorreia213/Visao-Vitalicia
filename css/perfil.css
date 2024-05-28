@@ -3,6 +3,12 @@ body{
     background-color: #A5C3FF;
 }
 
+h3{
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+
 .perfil{
     background-color: #425379;
     width: 60%;
@@ -15,18 +21,59 @@ body{
     font-size: 1.5rem;
 }
 
-.informacoes
+.perfil a:link{
+    text-decoration: none;
+}
+
+.informacoes{
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
 
 .imagem{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    margin-top: 2%;
 }
 
 .info{
     color: #FFFFFF;
     width: max-content;
+    margin-top: 2%;
 }
 
-div{
-    border: 1px solid red;
+/* .agendamentos{
+    /* display: flex;
+    justify-content: space-between; *
+    margin-left: 5%;
+} */
+
+.novo_agendamento{
+    border: 0;
+    border-radius: 50px 50px 50px 50px;
+    height: 50px;
+    margin-left: 60%;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+td a{
+    font-size: 1rem;
+}
+
+thead{
+    background-color: #6CBCF6;
+}
+
+.table-primary{
+    background-color: #6CBCF6;
+}
+
+table.table tr.legenda th{
+    background-color:#6CBCF6 !important;
 }

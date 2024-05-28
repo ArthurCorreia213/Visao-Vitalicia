@@ -1,0 +1,26 @@
+.container-corpo-clinico{
+    margin-top: 6em;
+}
+
+.titulo{
+    height: 9em;
+    background-image: linear-gradient(to bottom, #D7F5FF, #fff, #fff);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.titulo h3{
+    font-size: 3em;
+    color: #00548A;
+    font-weight: 780;
+}
+
+img{
+    width: 30em;
+}
+
+.caixa-gabriel{
+    height: 35em;
+}
+
