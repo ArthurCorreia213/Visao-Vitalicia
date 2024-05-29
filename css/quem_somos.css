@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+
+.sobre_nos{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background: linear-gradient(#D7F5FF, #FFFFFF);
+}
+
+.gradient{
+    height: 200px;
+    background: linear-gradient(#FFFFFF, #D7F5FF);
+}
+
+.titulo_sobre{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5rem;
+    color: #00548A;
+}
+
+.texto_1{
+    margin-top: -14em;
+    text-align: start;
+}
+
+.texto_2{
+    margin-left: 2em;
+}
+
+.texto_3{
+    text-align: start;
+    margin-right: 8em;
+    margin-top: -7em;
+}
+
+.assinatura{
+    margin-right:5em;
+}
+
+.row_2{
+    margin-top: -4em;
+    height: 300px;
+}
+
+/* h3{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-left: 40px;
+} */
+
+
+.imagem_clinica{
+    height: 20em;
+}
+
+.imagem_doutor{
+    height: 18em;
+    padding: 0;
+    width: 300px;
+    margin-top: -3em;
+    /* clip-path: polygon(35% 0, 100% 0, 100% 100%, 35% 100%); */
+}
+
+div{
+    border: 1px solid red;
+}
+
+.baloes{
+    margin-top: 196px;
+    width:80vw ;
+    height: max-content;
+    margin-left: 10%;
+}
+
+.triangulo{
+    width: 50px;
+    height: 50px;
+    margin-left: 2em;
+    margin-bottom: -1em;
+    background-color: #1B76AF;
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+}
+
+.balao{
+    border-radius: 50px;
+    width: 80vw;
+    margin-bottom: 5em;
+}
+
+.corpo{
+    background-color: #1B76AF;
+    border-radius: 20px;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+
+.missao_unders{
+    display: flex;
+    width: 8.6em;
+    margin-top: -.6em;
+}
+
+h3{
+    color: #00548A;
+    font-size: 4rem;
+    /* margin-bottom: 2%; */
+}
+
+.missao{
+    font-size: 1.5em;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.missao_under1{
+    background-color: #4DD7D7;
+    width: 6.9em;
+    height: .4em;
+    border-radius:50px ;
+}
+
+.missao_under2{
+    background-color: #95FDE4;
+    width: 1.3em;
+    height: .4em;
+    border-radius:50px ;
+    margin-left: .4em;
+}
+
+.texto_missao{
+    width: 70%;
+}

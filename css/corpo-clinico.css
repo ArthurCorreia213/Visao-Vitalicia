@@ -8,6 +8,7 @@
     display: flex;
     align-items: end;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 .titulo h3{
@@ -16,11 +17,117 @@
     font-weight: 780;
 }
 
-img{
-    width: 30em;
+.container-corpo-clinico img{
+    height: 30em;
+    margin-top: 5em;
+}
+
+.container-corpo-clinico .caixa-direita img, .caixa-esquerda img, .caixa-gabriel img, .caixa-esquerda1 img{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.container-corpo-clinico .texto-esquerda, .texto-direita, .texto-esquerda1{
+    margin-top: 5em;
 }
 
 .caixa-gabriel{
-    height: 35em;
+    display: flex;
+    height: 35.22em;
+    border-bottom: 4px solid #D9D9D9;
 }
 
+.caixa-direita{
+    display: flex;
+    height: 35.22em;
+    background-image: linear-gradient(to bottom, #D7f5ff, #fff, #fff, #fff, #fff, #fff );
+    border-bottom: 4px solid #D9D9D9;
+}
+
+.caixa-direita img{
+    position: relative;
+    left: 30%;
+}
+
+.caixa-esquerda{
+    display: flex;
+    height: 35.22em;
+    background-image: linear-gradient(to bottom, #D7f5ff, #fff, #fff, #fff, #fff, #fff );
+    border-bottom: 4px solid #D9D9D9;
+}
+
+.caixa-esquerda1{
+    display: flex;
+    height: 35.22em;
+    background-image: linear-gradient(to bottom, #D7f5ff, #fff, #fff, #fff, #fff, #fff );
+}
+
+.caixa-esquerda1 img{
+    margin-right: 10.5%;
+}
+
+.texto-esquerda1{
+    margin-left: 10%;
+    margin-right: 3%;
+}
+
+.texto-esquerda1 h5{
+    font-size: 2em;
+    color: #0E659C;
+    font-weight: 750;
+    margin-bottom: 1em;
+}
+
+.texto-esquerda1 p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.texto-esquerda{
+    margin-left: 10%;
+}
+
+.texto-esquerda h5{
+    font-size: 2em;
+    color: #0E659C;
+    font-weight: 750;
+    margin-bottom: 1em;
+}
+
+.texto-esquerda p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.texto-direita{
+    margin-left: 10%;
+}
+
+.texto-direita h5{
+    font-size: 2em;
+    color: #0E659C;
+    font-weight: 750;
+    margin-bottom: 1em;
+}
+
+.texto-direita p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.texto-gabriel{
+    margin-left: 10%;
+    margin-top: 2.1%;
+}
+
+.texto-gabriel h5{
+    font-size: 2em;
+    color: #0E659C;
+    font-weight: 750;
+    margin-bottom: 1em;
+}
+
+.texto-gabriel p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
