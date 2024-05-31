@@ -189,3 +189,123 @@ p:hover{
 .prontuario span{
     color: rgba(66, 83, 121, 1);
 }
+
+/* 
+o grid */
+
+
+.container {
+    display: grid;
+    grid-template-areas: 
+
+        "main"
+;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    width: 80%;
+    max-width: 1200px;
+    position: absolute;
+    top: 60vh;
+    left: 70vh;
+    z-index: 3;
+}
+
+.container img{
+    width: 100px;
+}
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1rem;
+    padding: 10%;
+}
+
+.content {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: x-large;
+
+    
+}
+
+
+/* o media é responsavel por udar a fonte, tamanho, etc, ao diminuir ou aumentar a tela */
+
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+        padding-left: 25%;
+    }
+    .content{
+        height: 190px;
+        width: 190px;
+    }
+    .titulos{
+        font-size: 50%;
+        margin-top: 50%;
+    }
+    img{
+        height: 45px;
+        width: auto;
+
+    }
+
+    .doutor{
+        height: 20px;
+    }
+}
+
+.titulos{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 20px 20px 20px;
+
+}
+
+/* adicionando o hover */
+
+.titulos:hover{
+    cursor: pointer;
+}
+
+.content:hover{
+    cursor: pointer;
+    border: #3697D3 solid 3px;
+}
+
+
+
+p:hover{
+    cursor: pointer;
+    color: #3697D3;
+}
+
+.conteudo a:link {
+    color: black;
+ }
+ 
+ /* link que foi visitado */
+ .conteudo a:visited {
+     color: black;
+ }
+ 
+ /* mouse over */
+.conteudo a:hover {
+     color: #3697D3;
+ }
+ 
+ /* link selecionado */
+.conteudo a:active {
+     color: #3697D3;
+ }

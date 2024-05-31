@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Novo Prontuário</title>
+    <link rel="stylesheet" href="css/novo-prontuario-medico.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de "Novo Prontuário":</h1>
+        <form>
+            <fieldset>
+                <legend>Prontuário do PACIENTE</legend>
+                <div class="form-row">
+                    <label for="numero-prontuario">Número do Prontuário:</label>
+                    <input type="text" id="numero-prontuario" name="numero-prontuario">
+                    <label for="data-abertura">Data de Abertura:</label>
+                    <input type="date" id="data-abertura" name="data-abertura">
+                </div>
+                <div class="form-row">
+                    <label for="nome-completo">Nome COMPLETO:</label>
+                    <input type="text" id="nome-completo" name="nome-completo" class="long-input">
+                </div>
+                <div class="form-row">
+                    <label for="data-nascimento">Data de nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento">
+                    <label for="sexo">Sexo:</label>
+                    <div class="sexo-options">
+                        <input type="radio" id="masculino" name="sexo" value="M">
+                        <label for="masculino">M</label>
+                        <input type="radio" id="feminino" name="sexo" value="F">
+                        <label for="feminino">F</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" class="long-input">
+                </div>
+                <div class="form-row">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-row">
+                    <label for="contato-responsavel">Nome, Telefone ou qualquer outro tipo de contato do responsável (se aplicável):</label>
+                    <input type="text" id="contato-responsavel" name="contato-responsavel" class="long-input">
+                </div>
+                <div class="form-row">
+                    <label for="doutor">Doutor:</label>
+                    <input type="text" id="doutor" name="doutor" class="long-input">
+                </div>
+                <div class="form-row limitacoes-row">
+                    <label>Limitações:</label>
+                    <div class="limitacoes">
+                        <input type="checkbox" id="cognitiva" name="limitacoes" value="cognitiva">
+                        <label for="cognitiva">Cognitiva</label>
+                        <input type="checkbox" id="locomocao" name="limitacoes" value="locomocao">
+                        <label for="locomocao">Locomoção</label>
+                        <input type="checkbox" id="visao" name="limitacoes" value="visao">
+                        <label for="visao">Visão</label>
+                        <input type="checkbox" id="audicao" name="limitacoes" value="audicao">
+                        <label for="audicao">Audição</label>
+                        <input type="checkbox" id="outras" name="limitacoes" value="outras">
+                        <label for="outras">Outras:</label>
+                        <input type="text" id="outras-text" name="outras-text">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="alergias">Alergias:</label>
+                    <input type="text" id="alergias" name="alergias" class="long-input">
+                </div>
+                <div class="form-row">
+                    <label for="detalhes">Detalhes/Observações:</label>
+                    <textarea id="detalhes" name="detalhes" class="long-input"></textarea>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Salvar</button>
+                    <button type="button" onclick="window.print()">Imprimir</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
