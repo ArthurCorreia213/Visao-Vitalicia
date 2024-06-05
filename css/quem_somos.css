@@ -67,9 +67,9 @@ body{
     /* clip-path: polygon(35% 0, 100% 0, 100% 100%, 35% 100%); */
 }
 
-div{
+/* div{
     border: 1px solid red;
-}
+} */
 
 .baloes{
     margin-top: 196px;
@@ -282,14 +282,22 @@ h3{
     text-align: right;
     padding: 3%;
     font-size: 3rem;
+    font-family: "Inter";
+    height: 9em;
+}
+
+.grid_titulo_texto{
+    font-size: 1.1em;
+    margin-bottom: 2.7em;
 }
 
 .grid_descricao{
     background-color: #3697D3;
     color: #FFFFFF;
     text-align: center;
-    padding: 3%;
-    font-size: 1.5rem;
+    padding: 5%;
+    height: 15em;
+    font-size: 2.5rem;
 }
 
 .valores_icones{
