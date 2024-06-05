@@ -165,10 +165,77 @@
                         <label for="outras">Outras:</label>
                         <input type="text" id="outras-text" name="outras-text">
                     </div>
+                    <div class="obs-bots">
+                    <div class="form-row">
+                      <label for="detalhes">Detalhes/Observações:</label>
+                      <textarea id="detalhes" name="detalhes" class="long-input"></textarea>
+                  </div>
+                  <div class="buttons">
+                      <!-- <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Salvar</button> -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2"  >
+                          Salvar
+                        </button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"  >
+                          Imprimir
+                        </button>
+                    </div>
+
+                      <!-- caso precisarmos futuramente, ou se for pedido, anexar no botão de imprimir o : onclick="window.print()" -->
+                    
+
+                  </div>
                       </div>
                   </div>
                 </div>
-                <div class="form-row">
+
+                <!-- configurando modals: -->
+<!-- 
+                modal imprimir: -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <span>Seu prontuário foi impresso com sucesso.</span>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" class="btn btn-primary" data-bs-dismiss="modal"><span> Ok</span></button>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+<!-- 
+                  modal salvar: -->
+
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <p>Estará presente na tela "Prontuários"</p>
+                          <span>  O prontuário foi salvo com sucesso.</span>
+                          
+                          
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-info" class="btn btn-primary" data-bs-dismiss="modal"><span> Ok</span></button>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                <!-- <div class="form-row">
                   <br>
                     <label for="alergias">Alergias:</label>
                     <input type="text" id="alergias" name="alergias" class="long-input">
@@ -181,7 +248,7 @@
                 <div class="buttons">
                     <button type="submit">Salvar</button>
                     <button type="button" onclick="window.print()">Imprimir</button>
-                </div>
+                </div> -->
             </fieldset>
         </form>
     </div>
