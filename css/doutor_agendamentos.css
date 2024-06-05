@@ -160,7 +160,7 @@ o grid: */
 
 /* adicionando o hover */
 
-.titulos, img:hover{
+.titulos:hover{
     cursor: pointer;
 }
 
@@ -170,6 +170,18 @@ o grid: */
 }
 
 
+
+p:hover{
+    cursor: pointer;
+    color: #3697D3;
+}
+
+
+/* adicionando o hover */
+
+.titulos, img:hover{
+    cursor: pointer;
+}
 
 p:hover{
     cursor: pointer;

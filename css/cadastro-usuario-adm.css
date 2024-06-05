@@ -27,6 +27,11 @@ body{
     border-bottom: 1px solid black;
 }
 
+.subtitulo{
+    margin-top: 3em;
+    margin-bottom: 2.3em;
+}
+
 .subtitulo h5{
     font-size: 1.8em;
 }
@@ -67,7 +72,7 @@ body{
 
 .div-barrinha{
     width: 75vw;
-    height: 26em;
+    height: 34.5em;
     border-bottom: 5px solid #3697D3;
     margin-bottom: 3.4em;
 }

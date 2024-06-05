@@ -80,11 +80,9 @@ o grid: */
     align-items: center;
     justify-content: center;
 }
-
 .container {
     display: grid;
     grid-template-areas: 
-
         "main"
 ;
     grid-template-columns: 1fr;
@@ -96,8 +94,6 @@ o grid: */
     left: 30px;
     z-index: 3;
 }
-
-
 .main {
     grid-area: main;
     display: grid;
@@ -106,7 +102,6 @@ o grid: */
     padding: 1rem;
     padding: 10%;
 }
-
 .content {
     background-color: #f8f8f8;
     padding: 1rem;
@@ -120,7 +115,6 @@ o grid: */
     justify-content: center;
     position: relative;
     font-size: x-large;
-
     
 }
  */
@@ -236,7 +230,7 @@ o grid */
     position: relative;
     font-size: x-large;
 
-    
+
 }
 
 
@@ -294,17 +288,17 @@ p:hover{
 .conteudo a:link {
     color: black;
  }
- 
+
  /* link que foi visitado */
  .conteudo a:visited {
      color: black;
  }
- 
+
  /* mouse over */
 .conteudo a:hover {
      color: #3697D3;
  }
- 
+
  /* link selecionado */
 .conteudo a:active {
      color: #3697D3;
