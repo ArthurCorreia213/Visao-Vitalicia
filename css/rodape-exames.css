@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    background-color: #425379;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4vh;
+    align-items: flex-end;
+}
+
+.rodape{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.borda{
+    margin-top: 1em;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF ;
+    padding-bottom: 4em;
+    z-index: -1;
+}
+
+.icone_rede_social, .icone_localizacao{
+    height: 4vmax;
+    width: 4vmax;
+}
+
+.telefone{
+    display: inline;
+    margin-left: 20px;
+}
+
+.margem{
+    margin-top: 2vh;
+}
+
+.logo_rodape{
+    width: 70%;
+    height: auto;
+    margin-bottom: 1vh;
+}
+
+.divisao_rodape{
+    margin-top: 20px;
+}
+
+.contato, .localizacao{
+    width: 35%;
+    margin-bottom: 2em;
+}
+.diretrizes{
+    width: 20%;
+    padding-bottom: 0;
+    font-size: 2vh;
+}
+
+.localizacao_texto{
+    position: relative;
+    bottom: 1.6em;
+    text-align: start;
+    margin-left:7vw;
+}
+
+.logo-contatos{
+    position: relative;
+    bottom: 1em;
+    align-items: flex-end;
+}
+
+.copyright{
+    display: inline;
+    align-items: flex-end;
+    position: relative;
+}
+
+.titulo_rodape{
+    position: relative;
+    bottom: 1.6em;
+}
+
+.contato{
+    position: relative;
+    top: 1em;
+}
+
+.posicionar{
+    position: relative;
+    bottom: 1.5em;
+}
+
+.icone_localizacao{
+    position: relative;
+    bottom: 0em;
+}
+
+.diretrizes > i{
+    position: relative;
+    bottom: 2em;
+}

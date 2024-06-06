@@ -133,7 +133,7 @@ img{
 
 .borda img{
     position: relative;
-    left: 7.6em;
+    left: 7.57em;
 }
 
 .borda1 img{
@@ -144,4 +144,19 @@ img{
 .borda2 img{
     position: relative;
     left: 27.2em;
+}
+
+.borda3 img{
+    position: relative;
+    left: 33.1em;
+}
+
+.borda4 img{
+    position: relative;
+    left: 27.55em;
+}
+
+.borda5 img{
+    position: relative;
+    left: 32.4em;
 }
