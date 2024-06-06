@@ -131,3 +131,8 @@ p:hover{
     cursor: pointer;
     color: #3697D3;
 }
+
+.main > a{
+    color: black;
+    text-decoration: none;
+}

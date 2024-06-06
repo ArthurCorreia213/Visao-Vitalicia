@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamentos - ADM</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+
+    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/agendamento-adm.css">
+    <link rel="stylesheet" href="css/rodape.css">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+      <img id="logo_header" src="imagens/logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown nav_texto">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Serviços
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="cirurgias.html">Cirurgia</a>
+              <a class="dropdown-item" href="#">Consulta</a>
+              <a class="dropdown-item" href="exames.html">Exames</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown nav_texto">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sobre
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="quem_somos.html">Sobre nós</a>
+              <a class="dropdown-item" href="corpo-clinico.html">Corpo Clínico</a>
+            </div>
+          </li>
+
+        <li class="nav-item nav_texto">
+          <a class="nav-link" href="convenios.html">Convênios</a>
+
+        <li class="nav-item nav_texto">
+            <a class="nav-link" href="fale_conosco.html">Fale conosco</a>
+        </li>
+
+        <!-- <li class="nav-item">
+          <button class="btn btn-outline-primary perfil_botao" type="button">
+            <img src="imagens/icones/user(3).svg" class="icone_perfil"> Bem vindo(a)!
+          </button>
+        </li> -->
+
+        <li class="nav-item">
+        <div class="dropdown">
+            <button class="btn btn-outline-primary dropdown-toggle perfil_botao" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="imagens/icones/user.svg" class="icone_perfil"> Bem vindo(a)!
+            </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="perfil.html">Perfil</a>
+            <a class="dropdown-item" href="login.html">Login</a>
+          </div>
+        </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <div class="lateral"></div>
+
+<div class="agendamento">
+
+    <h1>Agendamentos</h1>
+    <hr class="linha_texto">
+
+    Tipo de agendamento
+
+    <form>
+        <div class="tipo options">
+            <input type="radio" name="radio" value="consulta"><label for="radio">Consulta</label>
+            <input type="radio" name="radio" value="exame"><label for="radio">Exame</label>
+            <input type="radio" name="radio" value="cirurgia"><label for="radio">Cirurgia</label>
+        </div>
+        
+        <div class="div_informacoes">
+
+            <label for="fname">Nome:</labeL>
+            <input type="text" id="fname" name="fname" class="informacoes"><br>
+        
+            <label for="lname">Sobrenome:</labeL>
+            <input type="text" id="lname" name="lname" class="informacoes"><br>
+
+            <label for="email">Email:</labeL>
+            <input type="email" id="email" name="email" class="informacoes"><br>
+
+            <label for="telefone">Telefone:</labeL>
+            <input type="tel" id="telefone" name="telefone" class="informacoes"><br>
+
+            <label for="idade">idade:</labeL>
+            <input type="number" id="idade" name="idade" class="informacoes">
+        </div>
+
+        <hr class="hr_azul">
+
+        <div class="div_doutor">
+            <label for="doutor">Doutor:</label>
+            <select name="doutor" id="doutor">
+                <option value="gabriel">Escolha um doutor</option>
+                <option value="gabriel">Gabriel Eduardo Martins</option>
+                <option value="isabela">Isabela Costa Santos</option>
+                <option value="lucas">Lucas Gabriel Pereira Oliveira</option>
+                <option value="gustavo">Gustavo Lima Oliveira</option>
+                <option value="shaolin">Shaon Lin Uan</option>
+            </select>
+        </div><br>
+
+        <div class="div_data">
+            <label for="data">Escolha uma data:</label>
+            <select name="data" id="data">
+                <option value="gabriel">Escolha um data</option>
+            </select>
+        </div><br>
+
+        <label for="detalhes">Detalhes/Observações:</label><br>
+        <input type="textarea" id="detalhes" name="detalhes"><br><br>
+
+        <input type="submit" value="Confirmar" id="enviar"><br><br>
+</div>
+
+<footer>
+    <!-- <div class="rodape"> -->
+        <div class="localizacao divisao_rodape">
+            <p class="titulo_rodape">Localização</p>
+            <p class="localizacao_texto">Rua Negro Arroyo Lane<br>
+            308, Albuquerque, NM<br>
+            CEP: 00000-000</p>
+                <div class="icones-localizacao">
+                    <img src="imagens/icones/Maps.png" class="icone_localizacao" alt="">
+                    <img src="imagens/icones/Waze.png" class="icone_localizacao" alt="">
+                    <img src="imagens/icones/Uber.png" class="icone_localizacao" alt="" class="Uber">
+                </div>
+            </div>
+        <div class="diretrizes divisao_rodape">
+            <div class="borda">
+                <img src="imagens/logo.png" class="logo_rodape" alt="">
+                <p class="margem">Lei Geral de Proteção de Dados</p>
+                <p>Termos de Uso</p>
+                <p>Termos de Cookies</p>
+                <br>
+            </div>
+            <i>Voltar ao início</i>
+            <br><br><br><br><br>
+            <p class="copyright"> Visão vitalícia©2024</p>
+
+        </div>
+        <div class="contato divisao_rodape">
+            <p class="titulo_rodape">Contate-nos</p>
+            (11) 99999-9999<br>
+            Telefone:
+            <p class="telefone">4002-8922</p><br>
+            (11) 91234-5678<br><br>
+            <div class="logo-contatos">
+                <img src="imagens/icones/whatsapp.png" class="icone_rede_social" alt="whatsapp">
+                <img src="imagens/icones/facebook.png" class="icone_rede_social" alt="facebook">
+                <img src="imagens/icones/instagram.png" class="icone_rede_social" alt="instagram">
+                <img src="imagens/icones/linkedin.png" class="icone_rede_social" alt="linkedin">
+            </div>
+        </div>
+        <!-- <div>
+            Visão vitalícia©2024
+        </div> -->
+    </div>
+</footer>
+</body>
+</html>
