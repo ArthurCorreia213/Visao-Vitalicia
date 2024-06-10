@@ -3,10 +3,12 @@ body{
 }
 
 .barra-lateral{
-    position: absolute;
-    width: 6vw;
-    height: 90vh;
     background-color: #3697D3;
+    width: 100px;
+    height: 1048px;
+    display: inline;
+    position: absolute;
+    margin-top: -30px;
 }
 .container-dados{
     margin-top: 6em;

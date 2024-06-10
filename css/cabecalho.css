@@ -7,13 +7,6 @@ body{
     margin-left: 11.16vw;
 }
 
-/* Cores do site
-#3697D3
-#2986C1
-#1b76af
-#0e659c
-#00548a */
-
 nav{
     background-color: #425379;
 }
@@ -51,3 +44,15 @@ nav{
     white-space: nowrap;
 }
                                                     /* Fim do cabeçalho */
+
+.botao_voltar_nav{
+    width: 50px;
+    margin-left: 85%;
+}
+
+.botao_voltar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3697D3;
+}
