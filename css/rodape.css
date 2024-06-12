@@ -71,3 +71,9 @@ footer{
     display: inline;
     align-items: flex-end;
 }
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: normal;
+}

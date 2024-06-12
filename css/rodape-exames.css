@@ -104,3 +104,9 @@ footer{
     position: relative;
     bottom: 2em;
 }
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: normal;
+}

@@ -95,3 +95,18 @@ body{
     position: relative;
     bottom: 0.1em;
 }
+
+.sla{
+    display: flex;
+    position: relative;
+    left: 20.6em;
+    bottom: 3em;
+}
+
+.btn-login2{
+    position: relative;
+    bottom: -4em;
+    right: 30em;
+    width: 10em;
+    margin-right: 3em;
+}
