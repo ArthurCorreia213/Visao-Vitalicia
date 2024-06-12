@@ -6,9 +6,10 @@ body{
 .lateral{
     background-color: #3697D3;
     width: 100px;
-    height: 1018px;
+    height: 1048px;
     display: inline;
     position: absolute;
+    margin-top: -30px;
 }
 
 .agendamento{
